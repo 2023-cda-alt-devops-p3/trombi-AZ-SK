@@ -6,4 +6,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var markerMiramas = L.marker([43.583328, 5]).addTo(map);
+markerMiramas.bindPopup("<b>Miramas</b><br>").openPopup();
 var markerAvignon = L.marker([43.9420677, 4.8072416]).addTo(map);
+markerMiramas.bindPopup("<b>Avignon</b><br>").openPopup();
