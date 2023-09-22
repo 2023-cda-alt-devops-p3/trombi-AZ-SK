@@ -5,6 +5,13 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+
+var imagejavascript = document.createElement("img");
+imagejavascript.src = "./asset/image/smain.jpg";
+
+
+
+
 var markerMiramas = L.marker([43.583328, 5]).addTo(map);
 markerMiramas.bindPopup("<b>Miramas</b><br> Alan Zarli <br> Techs : React, PHP, Tailwind <br> Hobbies: Football, Musique").openPopup();
 var markerAvignon = L.marker([43.9420677, 4.8072416]).addTo(map);
@@ -21,6 +28,9 @@ var markerBordeaux = L.marker([44.833328, -0.56667]).addTo(map);
 markerBordeaux.bindPopup("<b>Bordeaux</b><br> Medhi Rezgane <br> Techs : Php, symphony, html, sass, js, jquery, react <br> Hobbies: Foot, Madrid").openPopup();
 var markerAix = L.marker([50.483333, 3.283333]).addTo(map);
 markerAix.bindPopup("<b>Aix en provence</b><br> Sébastien Criado <br> Techs : Symphony, MySql, Bootstrap, Jquery, Angular <br> Hobbies: Foot, Madrid").openPopup();
-var markerThieres = L.marker([45.857907, 3.545177]).addTo(map);
-markerAix.bindPopup("<b>Thiers</b><br> Smain Kaya <br> Techs : Laravel, Js, Tailwind <br> Hobbies: Foot, Littérature(manga).").openPopup();
+var markerThiers = L.marker([45.857907, 3.545177]).addTo(map);
+/* markerThiers.bindPopup(`<b>Thiers</b><br> Smain Kaya <br> Techs : Laravel, Js, Tailwind <br> Hobbies: Foot, Littérature(manga).`).openPopup(); */
+var popupContent = '<h2>Smain Kaya</h2><img src="./asset/image/smain.jpg" alt="smain" width="200px" />';
+markerThiers.bindPopup(popupContent).openPopup();
+
 
