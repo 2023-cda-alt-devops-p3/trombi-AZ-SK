@@ -27,7 +27,7 @@ var popupContentNicolas = '<h2>Nicolas Troc</h2><b>Pont-Gibaud</b><p> Techs : Py
 markerPontGibaud.bindPopup(popupContentNicolas).openPopup();
 
 var markerMarseille = L.marker([43.300000, 5.400000]).addTo(map);
-var popupContentRemiMichael = '<h2>Remi Bufnoir et Michael</h2><b>Bordeaux</b><p> Techs Remi : Php,  JS, Symphony <br> Techs Micheal:  Php, Sails, Js <br><br>Hobbies Remi: Lecteur SF/Fantasy, Jeux video, Patisserie<br>Hobbies Micheal: Tech, crypto</p><img src="./asset/image/remi.jpg" alt="smain" width="200px" /><img src="./asset/image/micheal.jpg" alt="smain" width="200px" /><br><a href="https://www.linkedin.com/in/rémi-bufnoir-82029a265/">Linkedin Rémi</a><br><a href="https://github.com/rbufnoir/">Github Rémi</a><a href="#">Linkedin Michael</a><br><a href="#">Github Michael</a>';
+var popupContentRemiMichael = '<h2>Remi Bufnoir et Michael Zekri</h2><b>Bordeaux</b><p> Techs Remi : Php,  JS, Symphony <br> Techs Micheal:  Php, Sails, Js <br><br>Hobbies Remi: Lecteur SF/Fantasy, Jeux video, Patisserie<br>Hobbies Micheal: Tech, crypto</p><img src="./asset/image/remi.jpg" alt="smain" width="200px" /><img src="./asset/image/micheal.jpg" alt="micheal" width="200px" /><br><a href="https://www.linkedin.com/in/rémi-bufnoir-82029a265/">Linkedin Rémi</a><br><a href="https://github.com/rbufnoir/">Github Rémi</a><br><a href="#">Linkedin Michael</a><br><a href="https://github.com/MikeZek ">Github Michael</a>';
 markerMarseille.bindPopup(popupContentRemiMichael).openPopup();
 
 var markerBordeaux = L.marker([44.833328, -0.56667]).addTo(map);
@@ -43,14 +43,14 @@ var popupContentArnaud = '<h2>Arnaud Fenérol</h2><b>Clermont Ferrant</b><p> Tec
 markerClermont.bindPopup(popupContentArnaud).openPopup();
 
 var markerTours = L.marker([47.383333, 0.683333]).addTo(map);
-var popupContentAli = '<h2>Ali Moussaev</h2><p> Techs : Delphi <br> Hobbies: Voyages</p><img src="./asset/image/ali.jpg" alt="smain" width="200px" /><br><a href="#">Linkedin</a><br><a href="#">Github</a>';
+var popupContentAli = '<h2>Ali Moussaev</h2><p> Techs : Delphi <br> Hobbies: Voyages</p><img src="./asset/image/ali.jpg" alt="ali" width="200px" /><br><a href="#">Linkedin</a><br><a href="#">Github</a>';
 markerTours.bindPopup(popupContentAli).openPopup();
 
 var markerSaintOmer = L.marker([50.750115, 2.252208]).addTo(map);
-markerSaintOmer.bindPopup("<b>Saint-Omer</b><br> JB <br> Techs : XXXXXXXXX <br> Hobbies: XXXXXXX").openPopup();
+markerSaintOmer.bindPopup('<b>Saint-Omer</b><br> JB <br> Techs : XXXXXXXXX <br> Hobbies: XXXXXXX <img src="./asset/image/jb.jpg" alt="smain" width="200px" />').openPopup();
 
 var markerSamer = L.marker([50.633333, 1.750000]).addTo(map);
-markerSamer.bindPopup("<b>Samer</b><br> Nicolas <br> Techs : XXXXXXXXX <br> Hobbies: XXXXXXX").openPopup();
+markerSamer.bindPopup('<b>Samer</b><br> Nicolas <br> Techs : XXXXXXXXX <br> Hobbies: XXXXXXX <img src="./asset/image/nicolas-formateur.jpg" alt="smain" width="200px" />').openPopup();
 
 
 var markerThiers = L.marker([45.857907, 3.545177]).addTo(map);
