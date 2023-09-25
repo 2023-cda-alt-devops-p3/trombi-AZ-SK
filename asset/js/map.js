@@ -44,6 +44,12 @@ var myIconSix = L.icon({
     iconAnchor: [52, 64],
 });
 
+var myIconSept = L.icon({
+    iconUrl: './asset/image/lens.png',
+    iconSize: [68, 65],
+    iconAnchor: [52, 64],
+});
+
 
 var markerMiramas = L.marker([43.583328, 5], {icon: myIcon}).addTo(map);
 var popupContentAlan = '<h2>Alan</h2><b>Miramas</b><p> Techs : React, PHP, Tailwind <br> Hobbies: Football, Musique</p><img src="./asset/image/alan.jpg" alt="smain" width="200px"/><br><a href="https://www.linkedin.com/in/alan-zarli-3a126423b/">Linkedin</a><br><a href="https://github.com/alanzarli">Github</a>';
@@ -61,7 +67,7 @@ var markerToulouse = L.marker([43.600000, 1.433333], {icon: myIconTrois}).addTo(
 var popupContentAurelienHava = '<h2>Aurélien Georges et Hava Bakrieva</h2><b>Toulouse</b><p> Techs Aurélien: Symphony, React, Bootstrap <br> Techs Hava: Vue.js, html, css, tailwind <br><br> Hobbies Aurélien: Marcher, écouter de la musique, musculation <br> Hobbies Hava: Lecture, DIY</p><img src="./asset/image/aurelien.jpg" alt="smain" width="200px" /><img src="./asset/image/hava.jpg" alt="smain" width="200px"/><br><a href="https://www.linkedin.com/in/aurélien-georges-910466144/">Linkedin Aurélien</a><br><a href="https://github.com/AurelienGEORGES">Github Aurelien</a><br><a href="https://www.linkedin.com/in/hava-bakrieva/">Linkedin Hava</a><br><a href="https://github.com/Havakii">Github Hava</a>';
 markerToulouse.bindPopup(popupContentAurelienHava).openPopup();
 
-var markerPontGibaud = L.marker([45.833328 , 2.86667], {icon: myIcon}).addTo(map);
+var markerPontGibaud = L.marker([45.833328 , 2.86667]).addTo(map);
 var popupContentNicolas = '<h2>Nicolas Troc</h2><b>Pont-Gibaud</b><p> Techs : Python, JS (React) <br> Hobbies: Randonné, Musique (faire et écouter) </p><img src="./asset/image/nicolas.jpg" alt="smain" width="200px" /><br><a href="https://www.linkedin.com/in/ntroc763/">Linkedin</a><br><a href="https://github.com/ColasCitron">Github</a>';
 markerPontGibaud.bindPopup(popupContentNicolas).openPopup();
 
@@ -85,10 +91,10 @@ var markerTours = L.marker([47.383333, 0.683333], {icon: myIcon}).addTo(map);
 var popupContentAli = '<h2>Ali Moussaev</h2><p> Techs : Delphi <br> Hobbies: Voyages</p><img src="./asset/image/ali.jpg" alt="ali" width="200px" /><br><a href="#">Linkedin</a><br><a href="#">Github</a>';
 markerTours.bindPopup(popupContentAli).openPopup();
 
-var markerSaintOmer = L.marker([50.750115, 2.252208], {icon: myIcon}).addTo(map);
+var markerSaintOmer = L.marker([50.750115, 2.252208], {icon: myIconSept}).addTo(map);
 markerSaintOmer.bindPopup('<b>Saint-Omer</b><br> JB <br> Techs : XXXXXXXXX <br> Hobbies: XXXXXXX <img src="./asset/image/jb.jpg" alt="smain" width="200px" />').openPopup();
 
-var markerSamer = L.marker([50.633333, 1.750000], {icon: myIcon}).addTo(map);
+var markerSamer = L.marker([50.633333, 1.750000]).addTo(map);
 markerSamer.bindPopup('<b>Samer</b><br> Nicolas <br> Techs : XXXXXXXXX <br> Hobbies: XXXXXXX <img src="./asset/image/nicolas-formateur.jpg" alt="smain" width="200px" />').openPopup();
 
 
